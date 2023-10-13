@@ -12,9 +12,9 @@ struct ContentView: View {
 	@State private var isOpen = false
 
 	var body: some View {
-		let _ = Self._printChanges()
-		 
-		VStack {
+		Self._printChanges()
+
+		return VStack {
 			Image(systemName: "arrow.down")
 				.rotationEffect(.init(degrees: isOpen ? 0 : 180))
 
