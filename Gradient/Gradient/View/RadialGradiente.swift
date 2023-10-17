@@ -13,6 +13,7 @@ struct RadialGradiente: View {
 			RadialGradient(colors: [.black, .mint, .purple, .blue], center: .center, startRadius: 50, endRadius: 100)
 				.ignoresSafeArea()
 			Text("Sofia")
+				.foregroundColor(.white)
 		}
     }
 }

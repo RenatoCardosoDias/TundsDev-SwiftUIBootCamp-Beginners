@@ -7,28 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		885BF2582ADEED2F004BA3D8 /* GradientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885BF2572ADEED2F004BA3D8 /* GradientApp.swift */; };
-		885BF25A2ADEED2F004BA3D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885BF2592ADEED2F004BA3D8 /* ContentView.swift */; };
-		885BF25C2ADEED31004BA3D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 885BF25B2ADEED31004BA3D8 /* Assets.xcassets */; };
-		885BF25F2ADEED31004BA3D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 885BF25E2ADEED31004BA3D8 /* Preview Assets.xcassets */; };
-		885BF2672ADF019F004BA3D8 /* Gradiente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885BF2662ADF019F004BA3D8 /* Gradiente.swift */; };
-		885BF2692ADF0C94004BA3D8 /* RadialGradiente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885BF2682ADF0C94004BA3D8 /* RadialGradiente.swift */; };
-		885BF26B2ADF0DAB004BA3D8 /* AngularGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885BF26A2ADF0DAB004BA3D8 /* AngularGradient.swift */; };
+		885BF2792ADF1262004BA3D8 /* UsandoStatesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885BF2782ADF1262004BA3D8 /* UsandoStatesApp.swift */; };
+		885BF27B2ADF1262004BA3D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885BF27A2ADF1262004BA3D8 /* ContentView.swift */; };
+		885BF27D2ADF1265004BA3D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 885BF27C2ADF1265004BA3D8 /* Assets.xcassets */; };
+		885BF2802ADF1265004BA3D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 885BF27F2ADF1265004BA3D8 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		885BF2542ADEED2F004BA3D8 /* Gradient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gradient.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		885BF2572ADEED2F004BA3D8 /* GradientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientApp.swift; sourceTree = "<group>"; };
-		885BF2592ADEED2F004BA3D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		885BF25B2ADEED31004BA3D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		885BF25E2ADEED31004BA3D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		885BF2662ADF019F004BA3D8 /* Gradiente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradiente.swift; sourceTree = "<group>"; };
-		885BF2682ADF0C94004BA3D8 /* RadialGradiente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialGradiente.swift; sourceTree = "<group>"; };
-		885BF26A2ADF0DAB004BA3D8 /* AngularGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularGradient.swift; sourceTree = "<group>"; };
+		885BF2752ADF1262004BA3D8 /* UsandoStates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsandoStates.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		885BF2782ADF1262004BA3D8 /* UsandoStatesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsandoStatesApp.swift; sourceTree = "<group>"; };
+		885BF27A2ADF1262004BA3D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		885BF27C2ADF1265004BA3D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		885BF27F2ADF1265004BA3D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		885BF2512ADEED2F004BA3D8 /* Frameworks */ = {
+		885BF2722ADF1262004BA3D8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,48 +32,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		885BF24B2ADEED2F004BA3D8 = {
+		885BF26C2ADF1262004BA3D8 = {
 			isa = PBXGroup;
 			children = (
-				885BF2562ADEED2F004BA3D8 /* Gradient */,
-				885BF2552ADEED2F004BA3D8 /* Products */,
+				885BF2772ADF1262004BA3D8 /* UsandoStates */,
+				885BF2762ADF1262004BA3D8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		885BF2552ADEED2F004BA3D8 /* Products */ = {
+		885BF2762ADF1262004BA3D8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				885BF2542ADEED2F004BA3D8 /* Gradient.app */,
+				885BF2752ADF1262004BA3D8 /* UsandoStates.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		885BF2562ADEED2F004BA3D8 /* Gradient */ = {
+		885BF2772ADF1262004BA3D8 /* UsandoStates */ = {
 			isa = PBXGroup;
 			children = (
-				885BF2652ADF0192004BA3D8 /* View */,
-				885BF2572ADEED2F004BA3D8 /* GradientApp.swift */,
-				885BF25B2ADEED31004BA3D8 /* Assets.xcassets */,
-				885BF25D2ADEED31004BA3D8 /* Preview Content */,
+				885BF2862ADF1270004BA3D8 /* View */,
+				885BF2782ADF1262004BA3D8 /* UsandoStatesApp.swift */,
+				885BF27A2ADF1262004BA3D8 /* ContentView.swift */,
+				885BF27C2ADF1265004BA3D8 /* Assets.xcassets */,
+				885BF27E2ADF1265004BA3D8 /* Preview Content */,
 			);
-			path = Gradient;
+			path = UsandoStates;
 			sourceTree = "<group>";
 		};
-		885BF25D2ADEED31004BA3D8 /* Preview Content */ = {
+		885BF27E2ADF1265004BA3D8 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				885BF25E2ADEED31004BA3D8 /* Preview Assets.xcassets */,
+				885BF27F2ADF1265004BA3D8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		885BF2652ADF0192004BA3D8 /* View */ = {
+		885BF2862ADF1270004BA3D8 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				885BF2592ADEED2F004BA3D8 /* ContentView.swift */,
-				885BF2662ADF019F004BA3D8 /* Gradiente.swift */,
-				885BF2682ADF0C94004BA3D8 /* RadialGradiente.swift */,
-				885BF26A2ADF0DAB004BA3D8 /* AngularGradient.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -87,39 +78,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		885BF2532ADEED2F004BA3D8 /* Gradient */ = {
+		885BF2742ADF1262004BA3D8 /* UsandoStates */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 885BF2622ADEED31004BA3D8 /* Build configuration list for PBXNativeTarget "Gradient" */;
+			buildConfigurationList = 885BF2832ADF1265004BA3D8 /* Build configuration list for PBXNativeTarget "UsandoStates" */;
 			buildPhases = (
-				885BF2502ADEED2F004BA3D8 /* Sources */,
-				885BF2512ADEED2F004BA3D8 /* Frameworks */,
-				885BF2522ADEED2F004BA3D8 /* Resources */,
+				885BF2712ADF1262004BA3D8 /* Sources */,
+				885BF2722ADF1262004BA3D8 /* Frameworks */,
+				885BF2732ADF1262004BA3D8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Gradient;
-			productName = Gradient;
-			productReference = 885BF2542ADEED2F004BA3D8 /* Gradient.app */;
+			name = UsandoStates;
+			productName = UsandoStates;
+			productReference = 885BF2752ADF1262004BA3D8 /* UsandoStates.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		885BF24C2ADEED2F004BA3D8 /* Project object */ = {
+		885BF26D2ADF1262004BA3D8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					885BF2532ADEED2F004BA3D8 = {
+					885BF2742ADF1262004BA3D8 = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
-			buildConfigurationList = 885BF24F2ADEED2F004BA3D8 /* Build configuration list for PBXProject "Gradient" */;
+			buildConfigurationList = 885BF2702ADF1262004BA3D8 /* Build configuration list for PBXProject "UsandoStates" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,45 +118,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 885BF24B2ADEED2F004BA3D8;
-			productRefGroup = 885BF2552ADEED2F004BA3D8 /* Products */;
+			mainGroup = 885BF26C2ADF1262004BA3D8;
+			productRefGroup = 885BF2762ADF1262004BA3D8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				885BF2532ADEED2F004BA3D8 /* Gradient */,
+				885BF2742ADF1262004BA3D8 /* UsandoStates */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		885BF2522ADEED2F004BA3D8 /* Resources */ = {
+		885BF2732ADF1262004BA3D8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				885BF25F2ADEED31004BA3D8 /* Preview Assets.xcassets in Resources */,
-				885BF25C2ADEED31004BA3D8 /* Assets.xcassets in Resources */,
+				885BF2802ADF1265004BA3D8 /* Preview Assets.xcassets in Resources */,
+				885BF27D2ADF1265004BA3D8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		885BF2502ADEED2F004BA3D8 /* Sources */ = {
+		885BF2712ADF1262004BA3D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				885BF2692ADF0C94004BA3D8 /* RadialGradiente.swift in Sources */,
-				885BF25A2ADEED2F004BA3D8 /* ContentView.swift in Sources */,
-				885BF26B2ADF0DAB004BA3D8 /* AngularGradient.swift in Sources */,
-				885BF2582ADEED2F004BA3D8 /* GradientApp.swift in Sources */,
-				885BF2672ADF019F004BA3D8 /* Gradiente.swift in Sources */,
+				885BF27B2ADF1262004BA3D8 /* ContentView.swift in Sources */,
+				885BF2792ADF1262004BA3D8 /* UsandoStatesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		885BF2602ADEED31004BA3D8 /* Debug */ = {
+		885BF2812ADF1265004BA3D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -228,7 +216,7 @@
 			};
 			name = Debug;
 		};
-		885BF2612ADEED31004BA3D8 /* Release */ = {
+		885BF2822ADF1265004BA3D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -284,14 +272,14 @@
 			};
 			name = Release;
 		};
-		885BF2632ADEED31004BA3D8 /* Debug */ = {
+		885BF2842ADF1265004BA3D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Gradient/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"UsandoStates/Preview Content\"";
 				DEVELOPMENT_TEAM = 2RB6Z32558;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -305,7 +293,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = staki.com.br.Gradient;
+				PRODUCT_BUNDLE_IDENTIFIER = staki.com.br.UsandoStates;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -313,14 +301,14 @@
 			};
 			name = Debug;
 		};
-		885BF2642ADEED31004BA3D8 /* Release */ = {
+		885BF2852ADF1265004BA3D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Gradient/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"UsandoStates/Preview Content\"";
 				DEVELOPMENT_TEAM = 2RB6Z32558;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -334,7 +322,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = staki.com.br.Gradient;
+				PRODUCT_BUNDLE_IDENTIFIER = staki.com.br.UsandoStates;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -345,25 +333,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		885BF24F2ADEED2F004BA3D8 /* Build configuration list for PBXProject "Gradient" */ = {
+		885BF2702ADF1262004BA3D8 /* Build configuration list for PBXProject "UsandoStates" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				885BF2602ADEED31004BA3D8 /* Debug */,
-				885BF2612ADEED31004BA3D8 /* Release */,
+				885BF2812ADF1265004BA3D8 /* Debug */,
+				885BF2822ADF1265004BA3D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		885BF2622ADEED31004BA3D8 /* Build configuration list for PBXNativeTarget "Gradient" */ = {
+		885BF2832ADF1265004BA3D8 /* Build configuration list for PBXNativeTarget "UsandoStates" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				885BF2632ADEED31004BA3D8 /* Debug */,
-				885BF2642ADEED31004BA3D8 /* Release */,
+				885BF2842ADF1265004BA3D8 /* Debug */,
+				885BF2852ADF1265004BA3D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 885BF24C2ADEED2F004BA3D8 /* Project object */;
+	rootObject = 885BF26D2ADF1262004BA3D8 /* Project object */;
 }
