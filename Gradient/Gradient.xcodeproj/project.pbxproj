@@ -11,6 +11,7 @@
 		885BF25A2ADEED2F004BA3D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885BF2592ADEED2F004BA3D8 /* ContentView.swift */; };
 		885BF25C2ADEED31004BA3D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 885BF25B2ADEED31004BA3D8 /* Assets.xcassets */; };
 		885BF25F2ADEED31004BA3D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 885BF25E2ADEED31004BA3D8 /* Preview Assets.xcassets */; };
+		885BF2672ADF019F004BA3D8 /* Gradiente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885BF2662ADF019F004BA3D8 /* Gradiente.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		885BF2592ADEED2F004BA3D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		885BF25B2ADEED31004BA3D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		885BF25E2ADEED31004BA3D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		885BF2662ADF019F004BA3D8 /* Gradiente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradiente.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,8 @@
 		885BF2562ADEED2F004BA3D8 /* Gradient */ = {
 			isa = PBXGroup;
 			children = (
+				885BF2652ADF0192004BA3D8 /* View */,
 				885BF2572ADEED2F004BA3D8 /* GradientApp.swift */,
-				885BF2592ADEED2F004BA3D8 /* ContentView.swift */,
 				885BF25B2ADEED31004BA3D8 /* Assets.xcassets */,
 				885BF25D2ADEED31004BA3D8 /* Preview Content */,
 			);
@@ -65,6 +67,15 @@
 				885BF25E2ADEED31004BA3D8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		885BF2652ADF0192004BA3D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				885BF2592ADEED2F004BA3D8 /* ContentView.swift */,
+				885BF2662ADF019F004BA3D8 /* Gradiente.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				885BF25A2ADEED2F004BA3D8 /* ContentView.swift in Sources */,
 				885BF2582ADEED2F004BA3D8 /* GradientApp.swift in Sources */,
+				885BF2672ADF019F004BA3D8 /* Gradiente.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
