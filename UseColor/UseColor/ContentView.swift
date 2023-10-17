@@ -10,14 +10,14 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
 		ZStack {
-			Color(red:48, green: 60, blue: 255)
+			Color(uiColor: .init(.mint))
 				.ignoresSafeArea()
 			VStack {
 				Image(systemName: "globe")
 					.imageScale(.large)
 					.foregroundStyle(.tint)
 				Text("Hello, world!")
-					.foregroundColor(.accentColor)
+//					.foregroundColor(.accentColor)
 			}
 			.padding()
 		}
