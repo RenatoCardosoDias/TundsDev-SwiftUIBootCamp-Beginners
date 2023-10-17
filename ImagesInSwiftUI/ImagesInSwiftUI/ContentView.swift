@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
 	var body: some View {
-		Image("imagesgit ")
+		Image("images")
 			.resizable()
 			.frame(width: 100, height: 100)
 	}
