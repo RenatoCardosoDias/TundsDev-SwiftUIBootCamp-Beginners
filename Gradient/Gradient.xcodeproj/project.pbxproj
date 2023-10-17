@@ -12,6 +12,7 @@
 		885BF25C2ADEED31004BA3D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 885BF25B2ADEED31004BA3D8 /* Assets.xcassets */; };
 		885BF25F2ADEED31004BA3D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 885BF25E2ADEED31004BA3D8 /* Preview Assets.xcassets */; };
 		885BF2672ADF019F004BA3D8 /* Gradiente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885BF2662ADF019F004BA3D8 /* Gradiente.swift */; };
+		885BF2692ADF0C94004BA3D8 /* RadialGradiente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885BF2682ADF0C94004BA3D8 /* RadialGradiente.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		885BF25B2ADEED31004BA3D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		885BF25E2ADEED31004BA3D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		885BF2662ADF019F004BA3D8 /* Gradiente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradiente.swift; sourceTree = "<group>"; };
+		885BF2682ADF0C94004BA3D8 /* RadialGradiente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialGradiente.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			children = (
 				885BF2592ADEED2F004BA3D8 /* ContentView.swift */,
 				885BF2662ADF019F004BA3D8 /* Gradiente.swift */,
+				885BF2682ADF0C94004BA3D8 /* RadialGradiente.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				885BF2692ADF0C94004BA3D8 /* RadialGradiente.swift in Sources */,
 				885BF25A2ADEED2F004BA3D8 /* ContentView.swift in Sources */,
 				885BF2582ADEED2F004BA3D8 /* GradientApp.swift in Sources */,
 				885BF2672ADF019F004BA3D8 /* Gradiente.swift in Sources */,
